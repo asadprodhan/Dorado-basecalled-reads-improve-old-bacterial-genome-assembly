@@ -9,11 +9,16 @@ DPIRD Diagnostics and Laboratory Services, Department of Primary Industries and 
 Correspondence: Asad.Prodhan@dpird.wa.gov.au
 
 
+<br />
+
 
 ## **Abstract**
 
 
 Oxford Nanopore Technology (ONT) sequencing platforms produce electric signals called squiggles as raw data. These squiggles are converted into nucleotide sequences by an algorithm called basecaller. ONT has recently released a new basecaller, Dorado; which is expected to improve basecalled read quality. Here, I re-basecalled an old set of Nanopore squiggles and reconstructed the corresponding bacterial genomes. Results revealed that the Dorado-basecalled reads improved the previously assembled bacterial genomes that used previous ONT basecaller, Guppy. An improved bacterial genome assembly is crucial for a more complete and accurate representation of a bacterium. In turn, this improves accuracy in the downstream applications such as diagnosis, gene annotation, structural variation detection, understanding virulence factors or antibiotic resistance mechanisms. 
+
+
+<br />
 
 
 ## **Methods**
@@ -22,9 +27,45 @@ Oxford Nanopore Technology (ONT) sequencing platforms produce electric signals c
 The squiggles from an old Nanopore sequencing run (Kit: SQK LSK 109 and Flowcell: R9.4.1) were basecalled using Guppy1(version 6.0.1+652ffd179, High Accuracy mode) and Dorado2 (version 0.6.2+14a7067, Super Accuracy mode). The basecalled reads were subjected to quality-control (QC) analysis using FastQC3 followed by genome assembly using Flye (version 2.9)4. The assembled genomes were then quality-checked by QUAST (v5.2.0)5 and visualised by Bandage (version 0.8.1)6.
 
 
+<br />
+
+
 ## **Results and Discussion**
 
 The read QC stats showed that Dorado produced about 2000 more total sequences in all three samples compared to those from Guppy (Table 1). In contrast, Guppy produced about 300 Mbp more total bases compared to those from Dorado. None of the reads from either of the basecallers was flagged by FastQC as of poor quality. Dorado generated longest reads compared to Guppy while the GC percentages were similar between the basecallers (Table 1). However, per base sequence quality was greatly improved in the Dorado-basecalled reads (Fig. 1). Dorado-basecalled reads produced a complete circular genome for Barcode07 and closed the gap for Barcode08 (Fig. 2) comparing between the basecallers. Barcode12 genome assembly remained independent of the basecallers (Fig. 2). All the genome quality statistics were similar between Guppy and Dorado (Table 2). 
 
 
 Taken together, these findings suggest that the choice of basecaller is important for the ONT raw data, and it is worth collecting and storing the squiggles from the ONT sequencing runs to be re-basecalled later with an improved version of basecallers, thus improving genome assemblies and their associated applications.       
+
+
+<br />
+
+
+**Funding:** There was no specific funding for this study.
+
+
+<br />
+
+
+**Conflict of interest:** Author declares there is no conflict of intertest.
+
+
+<br />
+
+
+**Data availability:** The study was conducted on in-house unpublished data, which are currently not publicly available.
+
+
+<br />
+
+
+## **References**
+
+
+1.	Guppy basecalling software. Oxford Nanopore Technologies. https://community.nanoporetech.com/protocols/Guppy-protocol/v/gpb_2003_v1_revax_14dec2018.
+2.	Dorado. Oxford Nanopore’s Basecaller. https://github.com/nanoporetech/dorado (2024).
+3.	Andrews, S. FastQC: A quality control tool for high throughput sequence data. https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ (2010).
+4.	Kolmogorov, M., Yuan, J., Lin, Y. & Pevzner, P. A. Assembly of long, error-prone reads using repeat graphs. Nat. Biotechnol. 37, 540–546 (2019).
+5.	Mikheenko, A., Prjibelski, A., Saveliev, V., Antipov, D. & Gurevich, A. Versatile genome assembly evaluation with QUAST-LG. Bioinformatics 34, i142–i150 (2018).
+6.	Wick, R. R., Schultz, M. B., Zobel, J. & Holt, K. E. Bandage: interactive visualization of de novo genome assemblies. Bioinformatics 31, 3350–3352 (2015).
+
