@@ -24,7 +24,7 @@ Oxford Nanopore Technology (ONT) sequencing platforms produce electric signals c
 ## **Methods**
 
 
-The squiggles from an old Nanopore sequencing run (Kit: SQK LSK 109 and Flowcell: R9.4.1) were basecalled using Guppy[^Guppy] (version 6.0.1+652ffd179, High Accuracy mode) and Dorado2 (version 0.6.2+14a7067, Super Accuracy mode). The basecalled reads were subjected to quality-control (QC) analysis using FastQC3 followed by genome assembly using Flye (version 2.9)4. The assembled genomes were then quality-checked by QUAST (v5.2.0)5 and visualised by Bandage (version 0.8.1)6.
+The squiggles from an old Nanopore sequencing run (Kit: SQK LSK 109 and Flowcell: R9.4.1) were basecalled using Guppy[^Guppy] (version 6.0.1+652ffd179, High Accuracy mode) and Dorado[^Dorado] (version 0.6.2+14a7067, Super Accuracy mode). The basecalled reads were subjected to quality-control (QC) analysis using FastQC[^FastQC] followed by genome assembly using Flye[^Flye] (version 2.9). The assembled genomes were then quality-checked by QUAST[^QUAST] (v5.2.0) and visualised by Bandage[^Bandage] (version 0.8.1).
 
 
 <br />
@@ -62,12 +62,21 @@ Taken together, these findings suggest that the choice of basecaller is importan
 ## **References**
 
 
+
 [^Guppy]:	Guppy basecalling software. Oxford Nanopore Technologies. https://community.nanoporetech.com/protocols/Guppy-protocol/v/gpb_2003_v1_revax_14dec2018.
 
 
-2.	Dorado. Oxford Nanopore’s Basecaller. https://github.com/nanoporetech/dorado (2024).
-3.	Andrews, S. FastQC: A quality control tool for high throughput sequence data. https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ (2010).
-4.	Kolmogorov, M., Yuan, J., Lin, Y. & Pevzner, P. A. Assembly of long, error-prone reads using repeat graphs. Nat. Biotechnol. 37, 540–546 (2019).
-5.	Mikheenko, A., Prjibelski, A., Saveliev, V., Antipov, D. & Gurevich, A. Versatile genome assembly evaluation with QUAST-LG. Bioinformatics 34, i142–i150 (2018).
-6.	Wick, R. R., Schultz, M. B., Zobel, J. & Holt, K. E. Bandage: interactive visualization of de novo genome assemblies. Bioinformatics 31, 3350–3352 (2015).
+[^Dorado]: Dorado. Oxford Nanopore’s Basecaller. https://github.com/nanoporetech/dorado (2024).
+
+
+[^FastQC]: Andrews, S. FastQC: A quality control tool for high throughput sequence data. https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ (2010).
+
+
+[^Flye]: Kolmogorov, M., Yuan, J., Lin, Y. & Pevzner, P. A. Assembly of long, error-prone reads using repeat graphs. Nat. Biotechnol. 37, 540–546 (2019).
+
+
+[^QUAST]: Mikheenko, A., Prjibelski, A., Saveliev, V., Antipov, D. & Gurevich, A. Versatile genome assembly evaluation with QUAST-LG. Bioinformatics 34, i142–i150 (2018).
+
+
+[^Bandage]: Wick, R. R., Schultz, M. B., Zobel, J. & Holt, K. E. Bandage: interactive visualization of de novo genome assemblies. Bioinformatics 31, 3350–3352 (2015).
 
