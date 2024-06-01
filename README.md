@@ -1,5 +1,4 @@
-# **Dorado-basecalled reads improve old bacterial genome assembly**
-
+<h1 align="center">Dorado-basecalled reads improve old bacterial genome assembly</h1>
 
 
 <div align="center"><b> M. Asaduzzaman Prodhan </b></div>
