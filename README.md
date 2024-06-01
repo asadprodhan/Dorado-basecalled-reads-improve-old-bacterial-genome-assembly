@@ -16,8 +16,13 @@
 <div align="center"><b> Correspondence: Asad.Prodhan@dpird.wa.gov.au </b></div>
 
 
+<br />
 
-[![DOI](https://zenodo.org/badge/808414840.svg)](https://zenodo.org/doi/10.5281/zenodo.11410229)
+
+<p align="center">
+  <a href="https://zenodo.org/doi/10.5281/zenodo.11410229"><img src="https://zenodo.org/badge/808414840.svg" alt="DOI"></a>
+</p>
+
 
 
 <br />
