@@ -1,15 +1,27 @@
 # **Dorado-basecalled reads improve old bacterial genome assembly**
 
 
-### **M. Asaduzzaman Prodhan**
+
+<div align="center"><b> M. Asaduzzaman Prodhan </b></div>
 
 
-DPIRD Diagnostics and Laboratory Services, Department of Primary Industries and Regional Development; 3 Baron-Hay Court, South Perth, WA  6151, Australia. 
+<div align="center"><b> DPIRD Diagnostics and Laboratory Services </b></div>
 
-Correspondence: Asad.Prodhan@dpird.wa.gov.au
+
+<div align="center"><b> Department of Primary Industries and Regional Development </b></div>
+
+
+<div align="center"><b> 3 Baron-Hay Court, South Perth, WA  6151, Australia </b></div>
+
+
+<div align="center"><b> Correspondence: Asad.Prodhan@dpird.wa.gov.au </b></div>
+ 
+
+<br />
 
 
 <br />
+
 
 
 ## **Abstract**
