@@ -1,7 +1,7 @@
 <h1 align="center">Dorado-basecalled reads improve old bacterial genome assembly</h1>
 
 
-<div align="center"><b> M. Asaduzzaman Prodhan </b></div>
+<h3 align="center">M. Asaduzzaman Prodhan</h3>
 
 
 <div align="center"><b> DPIRD Diagnostics and Laboratory Services </b></div>
