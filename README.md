@@ -38,6 +38,12 @@ The read QC stats showed that Dorado produced about 2000 more total sequences in
 <br />
 
 
+### **Table 1: Read quality statistics**
+
+
+<br />
+
+
 <p align="center">
   <img 
     src="https://github.com/asadprodhan/Dorado-basecalled-reads-improve-old-bacterial-genome-assembly-/blob/main/Table_1_Read_QC.PNG"
@@ -48,6 +54,12 @@ The read QC stats showed that Dorado produced about 2000 more total sequences in
 </p>
 
 <br />
+
+
+<br />
+
+
+### **Per base sequence quality**
 
 
 <br />
@@ -68,9 +80,15 @@ Figure 1: Per base sequence quality.
 <br />
 
 
+### **Genome assembly graphs**
+
+
+<br />
+
+
 <p align="center">
   <img 
-    src="https://github.com/asadprodhan/Dorado-basecalled-reads-improve-old-bacterial-genome-assembly-/commit/d82dcb5d462d26c083d580aa6068c8ba0b5355be"
+    src="https://github.com/asadprodhan/Dorado-basecalled-reads-improve-old-bacterial-genome-assembly-/blob/main/DPI300_Figure_2_Genome_assembly_graphs.png"
  align="center" width=70% height=70% >   
 </p>
 <p align = center>
@@ -78,6 +96,12 @@ Figure 2: Genome assembly graphs.
 </p>
 
 <br />
+
+
+<br />
+
+
+### **Table 2: Genome quality statistics**
 
 
 <br />
@@ -92,7 +116,13 @@ Figure 2: Genome assembly graphs.
 
 </p>
 
+
 <br />
+
+
+
+<br />
+
 
 
 Taken together, these findings suggest that the choice of basecaller is important for the ONT raw data, and it is worth collecting and storing the squiggles from the ONT sequencing runs to be re-basecalled later with an improved version of basecallers, thus improving genome assemblies and their associated applications.       
