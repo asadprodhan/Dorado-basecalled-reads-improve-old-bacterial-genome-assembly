@@ -35,6 +35,66 @@ The squiggles from an old Nanopore sequencing run (Kit: SQK LSK 109 and Flowcell
 The read QC stats showed that Dorado produced about 2000 more total sequences in all three samples compared to those from Guppy (Table 1). In contrast, Guppy produced about 300 Mbp more total bases compared to those from Dorado. None of the reads from either of the basecallers was flagged by FastQC as of poor quality. Dorado generated longest reads compared to Guppy while the GC percentages were similar between the basecallers (Table 1). However, per base sequence quality was greatly improved in the Dorado-basecalled reads (Fig. 1). Dorado-basecalled reads produced a complete circular genome for Barcode07 and closed the gap for Barcode08 (Fig. 2) comparing between the basecallers. Barcode12 genome assembly remained independent of the basecallers (Fig. 2). All the genome quality statistics were similar between Guppy and Dorado (Table 2). 
 
 
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/Dorado-basecalled-reads-improve-old-bacterial-genome-assembly-/blob/main/Table_1_Read_QC.PNG"
+ align="center" width=70% height=70% >   
+</p>
+<p align = center>
+
+</p>
+
+<br />
+
+
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/Dorado-basecalled-reads-improve-old-bacterial-genome-assembly-/blob/main/Figure_1_Per_base_sequence_quality.png"
+ align="center" width=70% height=70% >   
+</p>
+<p align = center>
+Figure 1: Per base sequence quality.
+</p>
+
+<br />
+
+
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/Dorado-basecalled-reads-improve-old-bacterial-genome-assembly-/commit/d82dcb5d462d26c083d580aa6068c8ba0b5355be"
+ align="center" width=70% height=70% >   
+</p>
+<p align = center>
+Figure 2: Genome assembly graphs.
+</p>
+
+<br />
+
+
+<br />
+
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/Dorado-basecalled-reads-improve-old-bacterial-genome-assembly-/blob/main/Table_2_Genome_QC.PNG"
+ align="center" width=70% height=70% >   
+</p>
+<p align = center>
+
+</p>
+
+<br />
+
+
 Taken together, these findings suggest that the choice of basecaller is important for the ONT raw data, and it is worth collecting and storing the squiggles from the ONT sequencing runs to be re-basecalled later with an improved version of basecallers, thus improving genome assemblies and their associated applications.       
 
 
