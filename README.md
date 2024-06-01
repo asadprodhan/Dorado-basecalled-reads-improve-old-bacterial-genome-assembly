@@ -70,7 +70,7 @@ The read QC stats showed that Dorado produced about 2000 more total sequences in
 <br />
 
 
-### **Per base sequence quality**
+<h3 align="center">Per base sequence quality</h2>
 
 
 <br />
@@ -91,7 +91,7 @@ Figure 1: Per base sequence quality.
 <br />
 
 
-### **Genome assembly graphs**
+<h3 align="center">Genome assembly graphs</h2>
 
 
 <br />
@@ -112,7 +112,7 @@ Figure 2: Genome assembly graphs.
 <br />
 
 
-### **Table 2: Genome quality statistics**
+<h3 align="center">Table 2: Genome quality statistics</h2>
 
 
 <br />
