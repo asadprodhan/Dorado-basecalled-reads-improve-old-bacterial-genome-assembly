@@ -49,7 +49,7 @@ The read QC stats showed that Dorado produced about 2000 more total sequences in
 <br />
 
 
-### **Table 1: Read quality statistics**
+<h3 align="center">Table 1: Read quality statistics</h2>
 
 
 <br />
